@@ -36,7 +36,7 @@
                         </span>
                     </div>
                 </div>
-                
+
                 <?php
                     if ($years) {
                         $option = null;
@@ -59,7 +59,7 @@
                         ';
                     }
                 ?>
-                
+
                 <div class="row g-0 mt-3">
                     <div class="col-7">
                         <div class="d-grid">
@@ -71,7 +71,7 @@
                     <div class="col-5">
                         <div class="d-grid">
                             <button type="submit" class="btn btn-primary rounded-pill">
-                                <i class="mdi mdi-check"></i> 
+                                <i class="mdi mdi-check"></i>
                                 <?= phrase('Sign In'); ?>
                             </button>
                         </div>
@@ -104,7 +104,7 @@
                 </div>
                 <?php endif; ?>
                 <div class="d-grid">
-                    <a href="<?= base_url('auth/register'); ?>" class="btn btn-outline-success --xhr rounded-pill --xhr">
+                    <a href="<?= base_url('auth/register'); ?>" class="btn btn-outline-success rounded-pill">
                         <i class="mdi mdi-account-plus"></i>
                         <?= phrase('Register an Account'); ?>
                     </a>
